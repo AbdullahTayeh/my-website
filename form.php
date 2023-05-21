@@ -16,7 +16,7 @@
     <header>
       
     <div id="nav-logo-section" class="nav-section ">
-        <a href="file.html">
+        <a href="index.html">
         <i class="fa-solid fa-star"></i>
         </a>
       </div>
@@ -129,6 +129,22 @@
 
 </main>
 
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("your@email.address", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 
 
 

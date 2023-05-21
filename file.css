@@ -282,6 +282,7 @@ article[data-status="active"] {
   main > article:nth-child(3) > .article-description-section > p {
     font-size: 44px;
     
+    
   }
 .container{
 max-width: 100;
