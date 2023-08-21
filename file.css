@@ -4,6 +4,12 @@
   --highlight-color: rgb(142, 99, 215);
   --navbar-color: rgb(190, 190, 245);
 }
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
 }
